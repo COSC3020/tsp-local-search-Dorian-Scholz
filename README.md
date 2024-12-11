@@ -50,3 +50,5 @@ Test your new function; I've provided some basic testing code in `code.test.js`.
 What is the worst-case asymptotic time complexity of your implementation? What
 is the worst-case asymptotic memory complexity? Add your answer, including your
 reasoning, to this markdown file.
+
+Answer: The worst case time complexity is O(n^3). Because from the main loop which iterates up to maxIterations time and the two nested for loops each iterating over all pairs of cities resulting in O(n^2) iterations. 
